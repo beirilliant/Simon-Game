@@ -1,7 +1,6 @@
 #wrap {
     width: 50%;
     margin: 0 auto;
-
 }
 .main {
  display: flex;
@@ -14,17 +13,25 @@
 }
 #tl {
     border-top-left-radius: 100%;
+    border-top: 20px solid black;
+    border-left: 20px solid black;
     background-color: green;
 }
 #tr {
     border-top-right-radius: 100%;
+    border-top: 20px solid black;
+    border-right: 20px solid black;
     background-color: red;
 }
 #bl {
     border-bottom-left-radius: 100%;
+    border-bottom: 20px solid black;
+    border-left: 20px solid black;
     background-color: yellow;
 }
 #br {
     border-bottom-right-radius: 100%;
+    border-bottom: 20px solid black;
+    border-right: 20px solid black;
     background-color: blue;
 }
