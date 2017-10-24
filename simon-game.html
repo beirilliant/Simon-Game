@@ -12,16 +12,50 @@
 </head>
   <body>
     <div class="container" id="wrap">
-    <h1>Simon Game</h1>
-      <div class="container main">
-        <div class="qCircle" id="tl"></div>
-        <div class="qCircle" id="tr"></div>
-      </div>
+        <div class="container text-center" id="sCircle">
+            <h1><strong>Simon</strong></h1>
 
-      <div class="container main">
-        <div class="qCircle" id="bl"></div>
-        <div class="qCircle" id="br"></div>
-      </div>
+            <div class="row" id="wrap2">
+                <div class="col">
+                    <div class="container" id="count"></div>
+                    <label for="count"><strong>COUNT</strong></label>
+                </div>
+
+                <div class="col">
+                    <div id="start"></div>
+                    <label for="start"><strong>START</strong></label>
+                </div>
+
+                <div class="col">
+                    <div id="strict"></div>
+                    <label for="strict"><strong>STRICT</strong></label>
+                </div>
+            </div>
+
+            <div class="row" id="switchDiv">
+
+                <div class="col" id="off">
+                    <label><strong>OFF</strong></label>
+                </div>
+
+                <div class="col-xs-2" id="switch">
+                </div>
+                
+                <div class="col" id="on">
+                    <label><strong>ON</strong></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container main">
+          <div class="qCircle" id="tl"></div>
+          <div class="qCircle" id="tr"></div>
+        </div>
+
+        <div class="container main">
+          <div class="qCircle" id="bl"></div>
+          <div class="qCircle" id="br"></div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
