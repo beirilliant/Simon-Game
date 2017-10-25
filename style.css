@@ -3,10 +3,6 @@
     width: 50%;
     margin: 0 auto;
 }
-.main {
- display: flex;
-
-}
 .qCircle {
     width: 300px;
     height: 300px;
@@ -47,8 +43,8 @@
     border-radius: 50%;
     border: 10px solid black;
     position: absolute;
-    left:540px;
-    bottom: 290px;
+    left:536px;
+    bottom: 288px;
     background-color: white;
     z-index: 3;
 }
