@@ -88,9 +88,10 @@ h1 {
 }
 #switchBtn {
     position: absolute;
-    width: 36px;
-    height: 36px;
-    left: 110px;
-    top: 218px;
+    width: 34px;
+    height: 34px;
+    left: 111px;
+    top: 219px;
+    cursor: pointer;
 
 }
