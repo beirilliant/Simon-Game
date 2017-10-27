@@ -1,41 +1,43 @@
 #wrap {
     padding-top: 70px;
     width: 50%;
-    margin: 0 auto;
+    position: relative;
 }
 .qCircle {
     width: 300px;
     height: 300px;
     border: 10px solid black;
     cursor: pointer;
+    position: absolute;
+    z-index: 1;
 }
 #tl {
     border-top-left-radius: 100%;
     border-top: 20px solid black;
     border-left: 20px solid black;
     background-color: green;
-    z-index: 1;
 }
 #tr {
     border-top-right-radius: 100%;
     border-top: 20px solid black;
     border-right: 20px solid black;
     background-color: red;
-    z-index: 1;
+    left: 300px;
 }
 #bl {
     border-bottom-left-radius: 100%;
     border-bottom: 20px solid black;
     border-left: 20px solid black;
     background-color: yellow;
-    z-index: 1;
+    top: 370px;
 }
 #br {
     border-bottom-right-radius: 100%;
     border-bottom: 20px solid black;
     border-right: 20px solid black;
     background-color: blue;
-    z-index: 1;
+    left: 300px;
+    top: 370px;
 }
 #sCircle {
     height: 300px;
@@ -43,14 +45,14 @@
     border-radius: 50%;
     border: 10px solid black;
     position: absolute;
-    left:536px;
-    bottom: 288px;
+    left:150px;
+    top: 210px;
     background-color: white;
     z-index: 3;
 }
 h1 {
     margin-top: 40px;
-    font-size: 5em;
+    font-size: 4em;
 }
 #count {
     height: 30px;
@@ -72,13 +74,15 @@ h1 {
     width: 80px;
     background-color: black;
     border-radius: 5px;
+    position: relative;
 }
 #switchDiv {
     margin-top: 10px;
+    position: absolute;
+    left: 7px;
 }
 #on {
     font-size: 130%;
-    margin-right: 30px;
     margin-top: 5px;
 }
 #off {
@@ -90,8 +94,7 @@ h1 {
     position: absolute;
     width: 34px;
     height: 34px;
-    left: 111px;
-    top: 219px;
+    left: 3px;
+    top: 3px;
     cursor: pointer;
-
 }
