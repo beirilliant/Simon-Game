@@ -10,3 +10,12 @@ $("#switchBtn").click(function() {
         endGame();
     }
 });
+
+function gameReady() {
+    $("#count").html("--");
+
+}
+
+function endGame() {
+    $("#count").html("");
+}

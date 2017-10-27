@@ -55,15 +55,16 @@ h1 {
     font-size: 4em;
 }
 #count {
-    height: 30px;
+    height: 35px;
     width: 60px;
     background-color: rgb(105, 8, 8);
     border: 4px solid black;
     border-radius: 5px;
+    font-size: 120%;
 }
 #start, #strict {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     padding: 0;
     margin: 0 auto;
     border-radius: 50%;
