@@ -1,11 +1,12 @@
-var isOn = 0;
+var isOn = false;
+var count = 0;
 $("#switchBtn").click(function() {
-    if (isOn === 0) {
-        isOn = 1;
+    if (isOn === false) {
+        isOn = true;
         $("#switchBtn").css("left", "42px");
         gameReady();
-    } else if (isOn === 1) {
-        isOn = 0;
+    } else if (isOn) {
+        isOn = false;
         $("#switchBtn").css("left", "4px");
         endGame();
     }
@@ -19,3 +20,15 @@ function gameReady() {
 function endGame() {
     $("#count").html("");
 }
+
+function startGame() {
+    alert("game starts!");
+}
+
+$("#start").click(function() {
+    if (isOn) {
+        endGame();
+        gameReady();
+        startGame();
+    }
+});
